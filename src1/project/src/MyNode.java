@@ -13,6 +13,7 @@ public class MyNode {
   private int value;
 
   private String secretStringThatOnlyIKnowAbout = "My secret is this: There is no spoon!";
+  private String mySecondSecretString = "I might have overwritten your files";
 
   /**
    * Class constructor initializing this node's value.
