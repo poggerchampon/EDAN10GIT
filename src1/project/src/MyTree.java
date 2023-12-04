@@ -15,7 +15,7 @@ import tree.MyNode;
 public class MyTree {
   private MyNode root;
   private String wisdom = "The bigger you are, the harder you fall";
-
+  int u = 289;
   /**
    * Class constructor.
    */
@@ -77,6 +77,7 @@ public class MyTree {
    * @return The total number of nodes.
    */
   public int cardinal() {
+    String s = "hello hobbe";
     if(root == null) {
       return 0;
     }

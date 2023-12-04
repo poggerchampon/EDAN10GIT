@@ -36,6 +36,10 @@ public class MyNode {
    * @return The current value of this node.
    */
   public int getValue() {
+    int one = value/value;
+    if(one != 1){
+      //somethings wrong
+    }
     return value;
   }
 
