@@ -12,6 +12,8 @@ public class MyNode {
   private MyNode right;
   private int value;
 
+  private String secretStringThatOnlyIKnowAbout = "My secret is this: There is no spoon!";
+
   /**
    * Class constructor initializing this node's value.
    * 

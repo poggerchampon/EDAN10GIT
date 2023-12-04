@@ -8,8 +8,12 @@ import tree.MyNode;
  * @author Torbjorn Ekman
  * @see MyNode
  */
+
+
+
 public class MyTree {
   private MyNode root;
+  private String wisdom = "The bigger you are, the harder you fall";
 
   /**
    * Class constructor.
