@@ -24,6 +24,12 @@ public class MyNode {
     this.value = value;
   }
 
+  public void unneccessaryLoop(){
+    for (int i = 0; i<3; ++i){
+      if (i == 300) System.out.println("WTF is this sorcery??");
+    }
+  }
+
   /**
    * Gets the value of this node.
    *
